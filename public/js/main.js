@@ -1,7 +1,7 @@
 const submitButton = document.getElementById('submitButton');
 const nameValue = document.getElementById('name').value;
 const email = document.getElementById('email').value;
-const textarea = document.getElementById('email').value;
+const textarea = document.getElementById('textarea').value;
 const message = document.getElementById('message');
 
 submitButton.addEventListener('click', function (event) {
@@ -34,9 +34,12 @@ submitButton.addEventListener('click', function (event) {
   //       textarea,
   //     }),
   //     success: function (res) {
-  //       message.style.display = 'block';
-  //       message.style.color = 'black';
-  //       message.innerHTML = '送信されました';
+  message.style.display = 'block';
+  message.style.color = 'black';
+  message.innerHTML = '送信されました';
+  setTimeout(() => {
+    message.style.display = 'none';
+  }, 3000);
 
   //     },
   //   });
