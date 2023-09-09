@@ -117,21 +117,6 @@ Mainvisual
 /*-------------------------------------------
 About Me
 -------------------------------------------*/
-/* #about ul {
-  margin-bottom: 30px;
-}
-
-#about ul li {
-  margin-bottom: 3px;
-}
-
-#about ul li:first-child {
-  margin-bottom: 30px;
-}
-
-#about p {
-  text-align: justify;
-} */
 
 #about dl {
   display: flex;
@@ -152,13 +137,14 @@ About Me
   padding: 15px;
 }
 
+.top-profile {
+  text-align: center;
+}
+
 /*-------------------------------------------
 Skill
 -------------------------------------------*/
 .fab {
-  /* cursor: pointer;
-  font-size: 150px;
-  transition: all 0.3s; */
   cursor: pointer;
   font-size: 10vw; /* ビューポート幅に対して相対的なフォントサイズ */
   transition: all 0.3s;
@@ -183,9 +169,6 @@ Skill
 }
 
 #Skill ul li img {
-  /* cursor: pointer;
-  width: 150px;
-  transition: all 0.3s; */
   cursor: pointer;
   max-width: 100%; /* 要素の最大幅を親要素に合わせる */
   height: auto; /* 高さは自動調整されます */
