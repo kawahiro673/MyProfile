@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TOMOHIRO KAWAGUCHI</title>
+    <meta name="description" content="LP練習" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+  
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header id="header">
+      <h1 class="site-title">
+        <a href="#">
+          TOMOHIRO KAWAGUCHI
+        </a>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#Skill">Skill</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://github.com/kawahiro673/" target="_blank" rel="noopener noreferrer">
+          <img src="./img/Github.png" alt="instagram" class="icon">
+        </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- メインビジュアル -->
+      <div id="mainvisual">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./img/main-sp.jpg">
+          <img src="img/main-pc.jpg" alt="テキストテキストテキスト">
+        </picture>
+      </div>
+
+      <!-- About Me-->
+      <section id="about" class="wrapper">
+        <h2 class="sec-title">About Me</h2>
+        <dl>
+          <dt>2019/3/31</dt>
+          <dd>芝浦工業大学工学部情報工学科　卒業</dd>
+          <dt>2019/4/1</dt>
+          <dd>株式会社日企　入社</dd>
+          <dt>2021/3/31</dt>
+          <dd>株式会社日企　退社</dd>
+          <dt>2021/10/1</dt>
+          <dd>株式会社レグルカセ（現：エイトビット株式会社）　入社</dd>
+          <dt></dt>
+          <dd>現在に至る</dd>
+        </dl>
+      </section>
+      <!-- Skill -->
+      <section id="Skill" class="wrapper">
+        <h2 class="sec-title">Skill</h2>
+        <ul>
+          <li><i class="fab fa-html5"></i></li>
+          <li><i class="fab fa-css3-alt"></i></li>
+          <li><i class="fab fa-js"></i></li>
+          <li><img src="./img/jQuery.png" alt="jQuery"></li>
+          <li><i class="fab fa-node"></i></li>
+          <li><img src="./img/mysql-150.png" alt="MySQL"></li>
+        </ul>
+      </section>
+      <!-- Portfolio -->
+      <section id="Portfolio" class="wrapper">
+        <h2 class="sec-title">Portfolio</h2>
+        <a href="https://knowhownote-106672fa32dd.herokuapp.com/">
+          <img src="./img/KnowHowNote.png" alt="KnowHowNote">
+        </a>
+      </section>
+      <!-- Contact -->
+      <section id="contact" class="wrapper">
+        <h2 class="sec-title">Contact</h2>
+        <p>お問い合わせは以下のフォームから
+        </p>
+        <form action="#" method="post">
+          <dl>
+            <dt><label for="name">お名前</label></dt>
+            <dd><input type="text" id="name"></dd>
+            <dt><label for="email">メールアドレス</label></dt>
+            <dd><input type="email" id="email"></dd>
+            <dt><label for="name">内容</label></dt>
+            <dd><textarea id="content" cols="30" rows="10"></textarea></dd>
+          </dl>
+          <div class="button"><input type="submit" value="送信"></div>
+        </form>
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer"></footer>
+    </picture>
+  </div>
+    </main>
+  </body>
+</html>
