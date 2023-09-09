@@ -10,6 +10,6 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
-app.listen(process.env.PORT || 8080, () => {
+app.listen(process.env.PORT || 6060, () => {
   console.log('サーバー接続成功');
 });
