@@ -16,7 +16,7 @@ submitButton.addEventListener('click', function (event) {
   }
 
   //メールアドレスに何か入力されていれば、バリデーションチェック
-  if (authEmail.value !== '' && !validateEmail(authEmail.value)) {
+  if (email !== '' && !validateEmail(email)) {
     message.style.display = 'block';
     message.style.color = 'red';
     message.innerHTML = 'メールアドレスの入力に誤りがあります';
@@ -46,7 +46,7 @@ submitButton.addEventListener('click', function (event) {
 });
 
 // 通常のメールアドレスバリデーション関数
-export const validateEmail = (email) => {
+const validateEmail = (email) => {
   const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
   // メールアドレスのフォーマットをチェック
   if (!emailRegex.test(email)) {
