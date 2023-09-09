@@ -34,12 +34,12 @@ submitButton.addEventListener('click', function (event) {
   //       textarea,
   //     }),
   //     success: function (res) {
-  message.style.display = 'block';
-  message.style.color = 'black';
-  message.innerHTML = '送信されました';
-  setTimeout(() => {
-    message.style.display = 'none';
-  }, 3000);
+  //   message.style.display = 'block';
+  //   message.style.color = 'black';
+  //   message.innerHTML = '送信されました';
+  //   setTimeout(() => {
+  //     message.style.display = 'none';
+  //   }, 3000);
 
   //     },
   //   });
