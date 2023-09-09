@@ -6,7 +6,7 @@ const message = document.getElementById('message');
 
 submitButton.addEventListener('click', function (event) {
   event.preventDefault();
-
+  console.log('やあ');
   //未入力
   if (nameValue === '' || email === '' || textarea === '') {
     message.style.display = 'block';
