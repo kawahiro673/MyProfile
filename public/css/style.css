@@ -248,7 +248,7 @@ Contact
   text-align: center;
 }
 
-#contact .button input {
+#submitButton {
   border: solid 1px #24292e;
   width: 200px;
   background-color: #24292e;
@@ -257,10 +257,11 @@ Contact
   transition: all 0.3s;
 }
 
-#contact .button input:hover {
+#submitButton:hover {
   background: #fff;
   color: #24292e;
 }
+
 /*----------------------------------------------
 SP
 ------------------------------------------------*/
