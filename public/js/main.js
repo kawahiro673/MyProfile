@@ -28,26 +28,25 @@ submitButton.addEventListener('click', function (event) {
     return false;
   }
 
-  //   $.ajax({
-  //     url: '/contact/',
-  //     type: 'POST',
-  //     dataType: 'Json',
-  //     contentType: 'application/json',
-  //     data: JSON.stringify({
-  //       nameValue,
-  //       email,
-  //       textarea,
-  //     }),
-  //     success: function (res) {
-  //   message.style.display = 'block';
-  //   message.style.color = 'black';
-  //   message.innerHTML = '送信されました';
-  //   setTimeout(() => {
-  //     message.style.display = 'none';
-  //   }, 3000);
-
-  //     },
-  //   });
+  $.ajax({
+    url: '/contact/',
+    type: 'POST',
+    dataType: 'Json',
+    contentType: 'application/json',
+    data: JSON.stringify({
+      nameValue,
+      email,
+      textarea,
+    }),
+    success: function (res) {
+      message.style.display = 'block';
+      message.style.color = 'black';
+      message.innerHTML = '送信されました';
+      setTimeout(() => {
+        message.style.display = 'none';
+      }, 3000);
+    },
+  });
 });
 
 // 通常のメールアドレスバリデーション関数
