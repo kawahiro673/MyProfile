@@ -6,6 +6,9 @@ const mailer = require('./mailer');
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
+app.use(express.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+app.use(express.json());
 
 app.get('/', (req, res) => {
   res.render('index');
