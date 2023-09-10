@@ -40,7 +40,7 @@ submitButton.addEventListener('click', function (event) {
       message.innerHTML = '送信されました';
       setTimeout(() => {
         message.style.display = 'none';
-      }, 3000);
+      }, 5000);
     },
   });
 });
