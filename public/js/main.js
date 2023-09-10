@@ -1,11 +1,16 @@
 const submitButton = document.getElementById('submitButton');
-const nameValue = document.getElementById('name').value;
-const email = document.getElementById('email').value;
-const textarea = document.getElementById('textarea').value;
 const message = document.getElementById('message');
 
 submitButton.addEventListener('click', function (event) {
   event.preventDefault();
+
+  const nameValue = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const textarea = document.getElementById('textarea').value;
+
+  console.log(nameValue);
+  console.log(email);
+  console.log(textarea);
 
   //未入力
   if (nameValue === '' || email === '' || textarea === '') {
