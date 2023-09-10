@@ -11,7 +11,6 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
-app.use('/auth', auth);
 app.use('/contact', mailer);
 
 app.listen(process.env.PORT || 6060, () => {
