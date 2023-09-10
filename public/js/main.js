@@ -8,10 +8,6 @@ submitButton.addEventListener('click', function (event) {
   const email = document.getElementById('email').value;
   const textarea = document.getElementById('textarea').value;
 
-  console.log(nameValue);
-  console.log(email);
-  console.log(textarea);
-
   //未入力
   if (nameValue === '' || email === '' || textarea === '') {
     message.style.display = 'block';
