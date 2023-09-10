@@ -3,6 +3,7 @@ var express = require('express'); //Express使う定型分
 var app = express(); //expressオブジェクトでappインスタンス作成
 const http = express('http');
 const mailer = require('./mailer');
+const bodyParser = require('body-parser');
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
