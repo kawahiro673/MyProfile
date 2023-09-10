@@ -32,6 +32,7 @@ router.route('/').post(async (req, res) => {
       res.status(500).send('Error sending email');
     } else {
       console.log('Email sent:', info.response);
+      res.send({ msg: 'OK' });
     }
   });
 });
