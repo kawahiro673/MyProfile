@@ -148,9 +148,9 @@ About Me
 /*-------------------------------------------
 Skill
 -------------------------------------------*/
-.fab {
+/* .fab {
   cursor: pointer;
-  font-size: 10vw; /* ビューポート幅に対して相対的なフォントサイズ */
+  font-size: 10vw;
   transition: all 0.3s;
 }
 
@@ -174,12 +174,38 @@ Skill
 
 #Skill ul li img {
   cursor: pointer;
-  max-width: 100%; /* 要素の最大幅を親要素に合わせる */
-  height: auto; /* 高さは自動調整されます */
+  max-width: 100%;
+  height: auto;
   transition: all 0.3s;
 }
 
 #Skill ul li img:hover {
+  transform: scale(1.2, 1.2);
+  opacity: 0.7;
+} */
+#Skill ul li {
+  width: calc(50% - 10px); /* 2列に並ぶための幅設定 */
+  margin-right: 10px; /* 要素の間隔を設定 */
+  margin-bottom: 23px;
+  text-align: center;
+}
+
+.fab,
+.nodejs,
+#Skill ul li img {
+  font-size: 10vw; /* フォントサイズを統一 */
+  max-width: 100%; /* 画像の最大幅を親要素に合わせる */
+  height: auto; /* 高さは自動調整されます */
+  transition: all 0.3s;
+}
+
+#Skill ul li img {
+  cursor: pointer;
+}
+
+#Skill ul li img:hover,
+.fab:hover,
+.nodejs:hover {
   transform: scale(1.2, 1.2);
   opacity: 0.7;
 }
@@ -318,7 +344,7 @@ SP
   #works ul li {
     width: 100%;
   }
-  /* 
+
   .fab {
     font-size: 20vw;
   }
@@ -327,16 +353,6 @@ SP
   }
   .nodejs {
     font-size: 24vw;
-  } */
-
-  .fab,
-  .nodejs {
-    font-size: 24vw; /* FontAwesomeアイコンとNode.jsアイコンのフォントサイズを調整 */
-  }
-
-  #Skill ul li img {
-    width: 24vw; /* 画像の幅をFontAwesomeアイコンと同じに調整 */
-    max-width: 100%; /* 画像が親要素を超えないように最大幅を設定 */
   }
 
   /* about */
