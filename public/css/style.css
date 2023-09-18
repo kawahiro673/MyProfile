@@ -265,35 +265,6 @@ Contact
 /*----------------------------------------------
 SP
 ------------------------------------------------*/
-
-@media screen and (max-width: 1000px) {
-  #header {
-    max-width: 100%;
-    height: auto;
-    flex-direction: column;
-    margin-top: 20px;
-    line-height: 40px;
-  }
-  /* 
-  #header li {
-    font-size: 0.8rem;
-    margin-left: 20px;
-  } */
-
-  #header li:first-child {
-    margin-left: 0;
-  }
-
-  /* #header li img.icon {
-    width: 20px;
-    margin-top: 15px;
-  } */
-
-  header li a {
-    white-space: nowrap;
-  }
-}
-
 /* pcファースト　大きいサイズから小さいサイズへ */
 /* 600pxより小さいときのcss適用 */
 @media screen and (max-width: 600px) {
@@ -331,10 +302,10 @@ SP
     margin-left: 0;
   }
 
-  /* #header li img.icon {
+  #header li img.icon {
     width: 20px;
     margin-top: 15px;
-  } */
+  }
 
   header li a {
     white-space: nowrap;
@@ -378,5 +349,28 @@ SP
   }
   #contact dd {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #header {
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+
+  #header li:first-child {
+    margin-left: 0;
+  }
+
+  #header li img.icon {
+    width: 20px;
+    margin-top: 15px;
+  }
+
+  header li a {
+    white-space: nowrap;
   }
 }
