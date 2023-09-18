@@ -186,9 +186,10 @@ Skill
 
 .fab {
   cursor: pointer;
-  font-size: 2rem; /* フォントサイズを適切なサイズに設定（適宜調整） */
+  font-size: 20rem; /* フォントサイズを適切なサイズに設定（適宜調整） */
   transition: all 0.3s;
 }
+
 .fab:hover {
   transform: scale(1.2, 1.2);
   opacity: 0.7;
