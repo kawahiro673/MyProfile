@@ -148,7 +148,7 @@ About Me
 /*-------------------------------------------
 Skill
 -------------------------------------------*/
-.fab {
+/* .fab {
   cursor: pointer;
   font-size: 10vw;
   transition: all 0.3s;
@@ -180,6 +180,46 @@ Skill
 }
 
 #Skill ul li img:hover {
+  transform: scale(1.2, 1.2);
+  opacity: 0.7;
+} */
+
+.fab {
+  cursor: pointer;
+  font-size: 100%; /* フォントサイズを100%に設定 */
+  transition: all 0.3s;
+}
+
+.fab:hover {
+  transform: scale(1.2, 1.2);
+  opacity: 0.7;
+}
+
+#Skill ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+#Skill ul li {
+  width: 31%;
+  margin-bottom: 23px;
+  text-align: center;
+}
+
+#Skill ul li img,
+#Skill ul li i {
+  /* <img>要素と<i>要素に共通のスタイルを適用 */
+  cursor: pointer;
+  max-width: 100%; /* 要素の最大幅を親要素に合わせる */
+  height: auto; /* 高さは自動調整されます */
+  transition: all 0.3s;
+}
+
+#Skill ul li img:hover,
+#Skill ul li i:hover {
+  /* ホバー時のスタイルを共通化 */
   transform: scale(1.2, 1.2);
   opacity: 0.7;
 }
