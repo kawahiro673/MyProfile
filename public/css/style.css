@@ -186,7 +186,7 @@ Skill
 
 .fab {
   cursor: pointer;
-  font-size: 20rem; /* フォントサイズを適切なサイズに設定（適宜調整） */
+  font-size: 12rem; /* フォントサイズを適切なサイズに設定（適宜調整） */
   transition: all 0.3s;
 }
 
