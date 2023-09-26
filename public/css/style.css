@@ -72,6 +72,11 @@ li {
   height: 170px;
   margin: 0 auto;
   padding: 0 4%;
+  position: fixed; /* ヘッダーを固定する */
+  top: 0; /* ヘッダーを画面の上部に配置する */
+  width: 100%; /* ヘッダーを画面幅いっぱいに広げる */
+  background-color: white; /* ヘッダーの背景色を設定 */
+  z-index: 1000; /* ヘッダーを他の要素の上に表示する */
 }
 
 #header ul {
