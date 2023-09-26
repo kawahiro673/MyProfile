@@ -76,7 +76,7 @@ li {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #f5f5f5;
+  background-color: #ccc;
   left: 0;
   right: 0;
 }
@@ -370,7 +370,7 @@ SP
     max-width: 100%;
     height: auto;
     flex-direction: column;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     line-height: 40px;
   }
 
