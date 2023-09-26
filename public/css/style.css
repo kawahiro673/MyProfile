@@ -81,10 +81,6 @@ li {
   right: 0;
 }
 
-#header div {
-  max-width: 960px;
-}
-
 #header ul {
   display: flex;
   padding: 10px 0;
@@ -376,6 +372,18 @@ SP
     flex-direction: column;
     /* margin-top: 20px; */
     line-height: 40px;
+  }
+
+  .site-title {
+    margin-top: 20px;
+  }
+
+  .site-title a {
+    font-size: 28px;
+  }
+
+  .sec-title {
+    margin-bottom: 40px;
   }
 
   #header li:first-child {
