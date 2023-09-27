@@ -29,6 +29,7 @@ p {
 
 .main-img {
   max-width: 100%; /* スマホサイズでも画像が縮小される。 */
+  align-items: center;
 }
 
 li {
@@ -74,8 +75,8 @@ li {
   right: 0;
 }
 
-.header-div{
-  max-width: 960px; 
+.header-div {
+  max-width: 960px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -375,7 +376,7 @@ SP
     line-height: 40px;
   }
 
-   .header-div {
+  .header-div {
     flex-direction: column; /* 縦方向に配置 */
     align-items: center; /* 中央に配置 */
   }
