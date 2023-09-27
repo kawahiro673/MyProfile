@@ -79,8 +79,10 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: auto;
+/*   margin: auto; */
   padding: 0 4%;
+  margin-top:auto; 
+  margin-bottom: auto
 }
 
 #header ul {
