@@ -372,8 +372,12 @@ SP
     max-width: 100%;
     height: auto;
     flex-direction: column;
-    /* margin-top: 20px; */
     line-height: 40px;
+  }
+
+   .header-div {
+    flex-direction: column; /* 縦方向に配置 */
+    align-items: center; /* 中央に配置 */
   }
 
   .site-title {
