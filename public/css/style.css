@@ -65,14 +65,8 @@ li {
 ヘッダー
 ------------------------------------------------*/
 #header {
-/*   max-width: 960px;  */
   width: 100%;
-/*   display: flex;
-  align-items: center;
-  justify-content: space-between; */
   height: 100px;
-/*   margin: 0 auto;
-  padding: 0 4%; */
   position: fixed;
   top: 0;
   background-color: #ccc;
@@ -87,10 +81,6 @@ li {
   justify-content: space-between;
   margin: 0 auto;
   padding: 0 4%;
-  height: 100%; /* 100%の高さを持たせます */
-  position: absolute; /* 相対的な配置を行います */
-  top: 0; /* 上端に配置 */
-  bottom: 0; /* 下端に配置 */
 }
 
 #header ul {
