@@ -72,17 +72,17 @@ li {
   background-color: #ccc;
   left: 0;
   right: 0;
+ align-items: center;
 }
 
 .header-div{
   max-width: 960px; 
   display: flex;
-  align-items: center;
+/*   align-items: center; */
   justify-content: space-between;
 /*   margin: auto; */
   padding: 0 4%;
-  margin-top:auto; 
-  margin-bottom: auto
+   display: inline-block;
 }
 
 #header ul {
