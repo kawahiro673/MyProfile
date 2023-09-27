@@ -65,7 +65,7 @@ li {
 ヘッダー
 ------------------------------------------------*/
 #header {
-  max-width: 960px; 
+/*   max-width: 960px;  */
   width: 100%;
   display: flex;
   align-items: center;
