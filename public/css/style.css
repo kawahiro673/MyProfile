@@ -27,7 +27,7 @@ p {
   font-size: 1.3rem;
 }
 
-img {
+.main-img {
   max-width: 100%; /* スマホサイズでも画像が縮小される。 */
 }
 
