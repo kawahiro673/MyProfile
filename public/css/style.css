@@ -28,13 +28,13 @@ p {
 }
 
 .main-img {
-  max-width: 100%; /* スマホサイズでも画像が縮小される。 */
-  display: block; /* 不要なインライン要素を削除 */
-  margin: 0 auto; /* 水平方向に中央に配置 */
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 #mainvisual {
-  text-align: center; /* 画像を水平方向に中央に配置 */
+  text-align: center;
 }
 
 li {
