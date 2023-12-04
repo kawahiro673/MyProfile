@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const nodemailer = require('nodemailer');
-
+//aaa
 //認証情報
 const auth = {
   type: 'OAuth2',
